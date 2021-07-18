@@ -1,3 +1,2 @@
 (fp_lib_table
-  (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/Type-C.pretty)(options "")(descr ""))
 )

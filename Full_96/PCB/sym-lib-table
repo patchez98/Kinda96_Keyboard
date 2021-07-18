@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/Type_C/Type-C.lib)(options "")(descr ""))
 )
