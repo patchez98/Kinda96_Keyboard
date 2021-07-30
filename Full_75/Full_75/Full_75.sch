@@ -400,35 +400,43 @@ Row[5]
 Wire Wire Line
 	3750 6900 4050 6900
 Wire Wire Line
-	2750 6900 2450 6900
+	2750 7000 2450 7000
 Wire Wire Line
-	3750 8100 4050 8100
-Text Label 4050 7800 2    50   ~ 0
-Col[13]
-Text Label 4050 7900 2    50   ~ 0
-Col[12]
+	2750 7900 2450 7900
 Text Label 4050 8000 2    50   ~ 0
-Col[11]
-Text Label 2450 7300 0    50   ~ 0
-Col[9]
-Text Label 2450 7400 0    50   ~ 0
-Col[8]
-Text Label 2450 7500 0    50   ~ 0
-Col[7]
-Text Label 2450 7600 0    50   ~ 0
-Col[6]
-Text Label 2450 7800 0    50   ~ 0
-Col[5]
-Text Label 2450 7900 0    50   ~ 0
-Col[4]
-Text Label 2450 8000 0    50   ~ 0
-Col[3]
-Text Label 2450 8100 0    50   ~ 0
-Col[2]
+Col[13]
+Text Label 4050 8100 2    50   ~ 0
+Col[12]
 Text Label 4050 8200 2    50   ~ 0
+Col[11]
+Text Label 4050 7900 2    50   ~ 0
+Col[9]
+Text Label 2450 7100 0    50   ~ 0
+Col[8]
+Text Label 2450 7200 0    50   ~ 0
+Col[7]
+Text Label 2450 7300 0    50   ~ 0
+Col[6]
+Text Label 2450 7400 0    50   ~ 0
+Col[5]
+Text Label 2450 7500 0    50   ~ 0
+Col[4]
+Text Label 2450 7600 0    50   ~ 0
+Col[3]
+Text Label 2450 7700 0    50   ~ 0
+Col[2]
+Text Label 2450 7800 0    50   ~ 0
 Col[1]
 Wire Wire Line
+	4050 7300 3750 7300
+Wire Wire Line
+	2450 7100 2750 7100
+Wire Wire Line
+	2450 7200 2750 7200
+Wire Wire Line
 	2450 7300 2750 7300
+Wire Wire Line
+	2450 8000 2750 8000
 Wire Wire Line
 	2450 7400 2750 7400
 Wire Wire Line
@@ -436,23 +444,15 @@ Wire Wire Line
 Wire Wire Line
 	2450 7600 2750 7600
 Wire Wire Line
-	4050 7300 3750 7300
-Wire Wire Line
-	2450 7800 2750 7800
-Wire Wire Line
-	2450 7900 2750 7900
-Wire Wire Line
-	2450 8000 2750 8000
-Wire Wire Line
-	4050 7800 3750 7800
-Wire Wire Line
-	3750 7900 4050 7900
-Wire Wire Line
 	4050 8000 3750 8000
 Wire Wire Line
-	2750 8100 2450 8100
+	3750 8100 4050 8100
 Wire Wire Line
-	3750 8200 4050 8200
+	4050 8200 3750 8200
+Wire Wire Line
+	2750 7700 2450 7700
+Wire Wire Line
+	2750 7800 2450 7800
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 621BD048
@@ -464,18 +464,18 @@ F 3 "~" H 2250 8300 50  0001 C CNN
 	1    2250 8300
 	-1   0    0    1   
 $EndComp
-Text Label 4050 8100 2    50   ~ 0
+Text Label 2450 7900 0    50   ~ 0
 Col[0]
-Text Label 2450 7200 0    50   ~ 0
-Col[10]
 Text Label 4050 7300 2    50   ~ 0
+Col[10]
+Text Label 2450 8000 0    50   ~ 0
 Row[1]
 Text Label 4050 7200 2    50   ~ 0
 Row[2]
-Text Label 2450 6900 0    50   ~ 0
+Text Label 2450 7000 0    50   ~ 0
 Row[0]
 Wire Wire Line
-	2450 7200 2750 7200
+	4050 7900 3750 7900
 Wire Wire Line
 	4050 7000 3750 7000
 Text Label 11750 1600 1    50   ~ 0
@@ -641,27 +641,27 @@ Wire Wire Line
 $Comp
 L _MX_Alps_Hybrid:MX-LED MX93
 U 1 1 60CB304C
-P 10600 3800
-F 0 "MX93" H 10633 4023 60  0000 C CNN
-F 1 "Enter" H 10633 3949 20  0000 C CNN
-F 2 "_MX_Only:MXOnly-2.25U" H 9975 3775 60  0001 C CNN
-F 3 "" H 9975 3775 60  0001 C CNN
-	1    10600 3800
+P 11350 3800
+F 0 "MX93" H 11383 4023 60  0000 C CNN
+F 1 "Enter" H 11383 3949 20  0000 C CNN
+F 2 "_MX_Only:MXOnly-2.25U" H 10725 3775 60  0001 C CNN
+F 3 "" H 10725 3775 60  0001 C CNN
+	1    11350 3800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small_ALT D94
 U 1 1 60CB3046
-P 10400 3950
-F 0 "D94" H 10400 4157 50  0000 C CNN
-F 1 "D" H 10400 4066 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 10400 3950 50  0001 C CNN
-F 3 "BAS16GWX" V 10400 3950 50  0001 C CNN
-	1    10400 3950
+P 11150 3950
+F 0 "D94" H 11150 4157 50  0000 C CNN
+F 1 "D" H 11150 4066 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 11150 3950 50  0001 C CNN
+F 3 "BAS16GWX" V 11150 3950 50  0001 C CNN
+	1    11150 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10500 3950 10550 3950
+	11250 3950 11300 3950
 $Comp
 L _MX_Alps_Hybrid:MX-LED MX94
 U 1 1 60CB303F
@@ -713,7 +713,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 5250 10300 5350
 Wire Wire Line
-	10300 3950 10300 4050
+	11050 3950 11050 4050
 Wire Wire Line
 	10300 2000 10300 2100
 Wire Wire Line
@@ -1547,29 +1547,27 @@ Wire Wire Line
 $Comp
 L _MX_Alps_Hybrid:MX-LED MX62
 U 1 1 60B2B788
-P 6100 5100
-F 0 "MX62" H 6133 5323 60  0000 C CNN
-F 1 "Backspace" H 6133 5249 20  0000 C CNN
-F 2 "_MX_Only:MXOnly-2U" H 5475 5075 60  0001 C CNN
-F 3 "" H 5475 5075 60  0001 C CNN
-	1    6100 5100
+P 6850 5100
+F 0 "MX62" H 6883 5323 60  0000 C CNN
+F 1 "Backspace" H 6883 5249 20  0000 C CNN
+F 2 "_MX_Only:MXOnly-2U" H 6225 5075 60  0001 C CNN
+F 3 "" H 6225 5075 60  0001 C CNN
+	1    6850 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small_ALT D63
 U 1 1 60B2B782
-P 5900 5250
-F 0 "D63" H 5900 5457 50  0000 C CNN
-F 1 "D" H 5900 5366 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 5900 5250 50  0001 C CNN
-F 3 "BAS16GWX" V 5900 5250 50  0001 C CNN
-	1    5900 5250
+P 6650 5250
+F 0 "D63" H 6650 5457 50  0000 C CNN
+F 1 "D" H 6650 5366 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6650 5250 50  0001 C CNN
+F 3 "BAS16GWX" V 6650 5250 50  0001 C CNN
+	1    6650 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 5250 6050 5250
-Wire Wire Line
-	5800 5250 5800 5350
+	6750 5250 6800 5250
 Wire Wire Line
 	5800 3950 5800 4050
 Wire Wire Line
@@ -3486,8 +3484,6 @@ Wire Wire Line
 Connection ~ 5750 4400
 Wire Wire Line
 	5750 4400 5750 5050
-Wire Wire Line
-	5050 5350 5800 5350
 Connection ~ 5050 5350
 $Comp
 L power:+5V #PWR046
@@ -3597,30 +3593,27 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR051
 U 1 1 6400AF14
-P 6250 5100
-F 0 "#PWR051" H 6250 4950 50  0001 C CNN
-F 1 "+5V" V 6300 5200 50  0000 C CNN
-F 2 "" H 6250 5100 50  0001 C CNN
-F 3 "" H 6250 5100 50  0001 C CNN
-	1    6250 5100
+P 7000 5100
+F 0 "#PWR051" H 7000 4950 50  0001 C CNN
+F 1 "+5V" V 7050 5200 50  0000 C CNN
+F 2 "" H 7000 5100 50  0001 C CNN
+F 3 "" H 7000 5100 50  0001 C CNN
+	1    7000 5100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6100 5200 6100 5300
+	6850 5200 6850 5300
 Wire Wire Line
-	6200 5100 6250 5100
-Text Label 6450 5300 2    39   ~ 0
+	6950 5100 7000 5100
+Text Label 7200 5300 2    39   ~ 0
 LED_CAT2
 Wire Wire Line
-	6100 5300 6450 5300
+	6850 5300 7200 5300
 Wire Wire Line
-	6250 5050 6500 5050
+	7000 5050 7250 5050
 Wire Wire Line
 	5800 4700 6550 4700
 Connection ~ 5800 4700
-Connection ~ 6500 4400
-Wire Wire Line
-	6500 4400 6500 5050
 Wire Wire Line
 	5800 4050 6550 4050
 Connection ~ 5800 4050
@@ -3781,9 +3774,6 @@ Connection ~ 6550 4050
 Wire Wire Line
 	6550 4700 7300 4700
 Connection ~ 6550 4700
-Wire Wire Line
-	5800 5350 7300 5350
-Connection ~ 5800 5350
 $Comp
 L power:+5V #PWR063
 U 1 1 64C687AA
@@ -4267,8 +4257,6 @@ Connection ~ 8800 5350
 Wire Wire Line
 	8800 4700 10300 4700
 Connection ~ 8800 4700
-Wire Wire Line
-	9550 4050 10300 4050
 Connection ~ 9550 4050
 Wire Wire Line
 	9550 3400 10300 3400
@@ -4419,24 +4407,24 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR087
 U 1 1 66C8C5E0
-P 10750 3800
-F 0 "#PWR087" H 10750 3650 50  0001 C CNN
-F 1 "+5V" V 10800 3900 50  0000 C CNN
-F 2 "" H 10750 3800 50  0001 C CNN
-F 3 "" H 10750 3800 50  0001 C CNN
-	1    10750 3800
+P 11500 3800
+F 0 "#PWR087" H 11500 3650 50  0001 C CNN
+F 1 "+5V" V 11550 3900 50  0000 C CNN
+F 2 "" H 11500 3800 50  0001 C CNN
+F 3 "" H 11500 3800 50  0001 C CNN
+	1    11500 3800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10600 3900 10600 4000
+	11350 3900 11350 4000
 Wire Wire Line
-	10700 3800 10750 3800
-Text Label 10950 4000 2    39   ~ 0
+	11450 3800 11500 3800
+Text Label 11700 4000 2    39   ~ 0
 LED_CAT4
 Wire Wire Line
-	10600 4000 10950 4000
+	11350 4000 11700 4000
 Wire Wire Line
-	10750 3750 11000 3750
+	11500 3750 11750 3750
 $Comp
 L power:+5V #PWR086
 U 1 1 66CFB338
@@ -4518,11 +4506,6 @@ Connection ~ 10300 3400
 Wire Wire Line
 	11000 2450 11000 3100
 Connection ~ 11000 3100
-Wire Wire Line
-	11000 3100 11000 3750
-Connection ~ 11000 3750
-Wire Wire Line
-	11000 3750 11000 4400
 Connection ~ 11000 4400
 Wire Wire Line
 	11000 4400 11000 5050
@@ -4622,7 +4605,7 @@ Wire Wire Line
 	11750 2450 11750 3100
 Connection ~ 11750 2450
 Wire Wire Line
-	11750 3100 11750 5050
+	11750 3100 11750 3750
 Connection ~ 11750 3100
 $Comp
 L _Driver_LED:MIC4801 U2
@@ -5141,15 +5124,15 @@ Text Label 15150 7100 2    50   ~ 0
 LED_CAT4
 Wire Wire Line
 	14750 7100 15150 7100
-Text Label 4100 7700 2    50   ~ 0
-LED_EN0
-Text Label 4100 7600 2    50   ~ 0
-LED_EN1
-Text Label 4100 7500 2    50   ~ 0
-LED_EN2
 Text Label 4100 7400 2    50   ~ 0
+LED_EN0
+Text Label 4100 7500 2    50   ~ 0
+LED_EN1
+Text Label 4100 7600 2    50   ~ 0
+LED_EN2
+Text Label 4100 7700 2    50   ~ 0
 LED_EN3
-Text Label 2400 7700 0    50   ~ 0
+Text Label 4100 7800 2    50   ~ 0
 LED_EN4
 $Comp
 L Device:LED_Small_ALT D1
@@ -5187,60 +5170,58 @@ LED_CAT1
 $Comp
 L Device:LED_Small_ALT D3
 U 1 1 61928858
-P 6700 5050
-F 0 "D3" V 6746 4980 50  0000 R CNN
-F 1 "LED" V 6655 4980 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6700 5050 50  0001 C CNN
-F 3 "~" V 6700 5050 50  0001 C CNN
-	1    6700 5050
+P 5950 5050
+F 0 "D3" V 5996 4980 50  0000 R CNN
+F 1 "LED" V 5905 4980 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5950 5050 50  0001 C CNN
+F 3 "~" V 5950 5050 50  0001 C CNN
+	1    5950 5050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED_Small_ALT D4
 U 1 1 6192885E
-P 6950 5050
-F 0 "D4" V 6996 4980 50  0000 R CNN
-F 1 "LED" V 6905 4980 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6950 5050 50  0001 C CNN
-F 3 "~" V 6950 5050 50  0001 C CNN
-	1    6950 5050
+P 6200 5050
+F 0 "D4" V 6246 4980 50  0000 R CNN
+F 1 "LED" V 6155 4980 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6200 5050 50  0001 C CNN
+F 3 "~" V 6200 5050 50  0001 C CNN
+	1    6200 5050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6700 4950 6950 4950
+	5950 4950 6200 4950
 Wire Wire Line
-	6700 5150 6950 5150
+	5950 5150 6200 5150
 Wire Wire Line
-	6700 5150 6700 5300
+	5950 5150 5950 5300
 Wire Wire Line
-	6700 5300 7000 5300
-Connection ~ 6700 5150
-Text Label 7000 5300 2    39   ~ 0
+	5950 5300 6250 5300
+Connection ~ 5950 5150
+Text Label 6250 5300 2    39   ~ 0
 LED_CAT2
 $Comp
-L Connector_Generic:Conn_01x02 J2
+L Connector_Generic:Conn_01x03 J2
 U 1 1 61B016D8
 P 1050 7950
 F 0 "J2" H 1150 7850 50  0000 C CNN
 F 1 "Numpad_PWR" H 1350 7950 50  0000 C CNN
-F 2 "_Connectors:01x02_MillMax_Springloaded_Pin" H 1050 7950 50  0001 C CNN
+F 2 "_Connectors:01x03_MillMax_Springloaded_Pin" H 1050 7950 50  0001 C CNN
 F 3 "~" H 1050 7950 50  0001 C CNN
 	1    1050 7950
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR099
 U 1 1 61B02926
-P 1250 8000
-F 0 "#PWR099" H 1250 7750 50  0001 C CNN
-F 1 "GND" H 1250 7850 50  0000 C CNN
-F 2 "" H 1250 8000 50  0001 C CNN
-F 3 "" H 1250 8000 50  0001 C CNN
-	1    1250 8000
+P 1600 7750
+F 0 "#PWR099" H 1600 7500 50  0001 C CNN
+F 1 "GND" H 1600 7600 50  0000 C CNN
+F 2 "" H 1600 7750 50  0001 C CNN
+F 3 "" H 1600 7750 50  0001 C CNN
+	1    1600 7750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 7950 1250 8000
 $Comp
 L power:+5V #PWR098
 U 1 1 61B9DEF6
@@ -5259,17 +5240,71 @@ Numpad Power
 Wire Notes Line
 	450  7450 1800 7450
 Wire Wire Line
-	2750 7700 2400 7700
+	3750 7800 4100 7800
 Wire Wire Line
-	3750 7400 4100 7400
-Wire Wire Line
-	3750 7500 4100 7500
+	3750 7700 4100 7700
 Wire Wire Line
 	3750 7600 4100 7600
 Wire Wire Line
-	3750 7700 4100 7700
-NoConn ~ 2750 7000
-NoConn ~ 2750 7100
+	3750 7500 4100 7500
+Wire Wire Line
+	3750 7400 4100 7400
+$Comp
+L power:+5V #PWR0101
+U 1 1 61112B07
+P 4450 4950
+F 0 "#PWR0101" H 4450 4800 50  0001 C CNN
+F 1 "+5V" H 4550 5000 50  0000 C CNN
+F 2 "" H 4450 4950 50  0001 C CNN
+F 3 "" H 4450 4950 50  0001 C CNN
+	1    4450 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 4950
+$Comp
+L power:+5V #PWR0102
+U 1 1 61113A66
+P 5950 4950
+F 0 "#PWR0102" H 5950 4800 50  0001 C CNN
+F 1 "+5V" H 6050 5000 50  0000 C CNN
+F 2 "" H 5950 4950 50  0001 C CNN
+F 3 "" H 5950 4950 50  0001 C CNN
+	1    5950 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5950 4950
+Wire Wire Line
+	5050 5350 6550 5350
+Wire Wire Line
+	7250 5050 7250 4400
+Connection ~ 7250 4400
+Wire Wire Line
+	6550 5250 6550 5350
+Connection ~ 6550 5350
+Wire Wire Line
+	6550 5350 7300 5350
+Connection ~ 11750 3750
+Wire Wire Line
+	11750 3750 11750 5050
+Wire Wire Line
+	11000 3100 11000 4400
+Wire Wire Line
+	9550 4050 11050 4050
+NoConn ~ 2750 6900
+Text Label 1750 8050 2    50   ~ 0
+LED_EN_NUM
+Wire Wire Line
+	1250 8050 1750 8050
+Wire Wire Line
+	1250 7950 1500 7950
+Wire Wire Line
+	1500 7950 1500 7750
+Wire Wire Line
+	1500 7750 1600 7750
+Text Label 2250 8100 0    50   ~ 0
+LED_EN_NUM
+Wire Wire Line
+	2750 8100 2250 8100
 Wire Bus Line
 	850  2000 850  5250
 Wire Bus Line
